@@ -1,0 +1,81 @@
+.prod-sec {
+    max-width: 1350px;
+    width: 100%;
+    margin: auto auto 75px;
+    position: relative;
+}
+
+.single-prod {
+    background: rgb(255 255 255 / 10%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.p-img {
+    width: 500px;
+    height: 400px;
+}
+
+.p-heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.p-subhead {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    color:rgb(251, 224, 67);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+.p-para{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #dee2e6c7;
+    width: 88%;
+    margin: auto;
+}
+.prod-data{
+    max-width: 60%;
+}
+
+.suite-nft{
+    background: linear-gradient(to right, #CE00E6, #E7009C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 32px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+  }
+  .crypit-nft{
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(94.59deg,#ff7e11 1.33%,#fbe043 52.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .floating-oval{
+position: absolute;
+top: 0  ;
+  }

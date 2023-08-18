@@ -1,0 +1,42 @@
+.bg{
+  background: url("../../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.intro-sec {
+  max-width: 1350px;
+  width: 100%;
+  margin: 100px auto 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: vh;
+}
+
+.logo-sq {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.intro-head {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.into-para {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #dee2e6c7;
+  width: 70%;
+  margin: 15px auto 35px;
+  text-align: center;
+}
+
