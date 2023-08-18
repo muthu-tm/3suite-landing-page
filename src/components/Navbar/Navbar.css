@@ -1,12 +1,21 @@
 .n-wrapper {
-  height: 10vh;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   max-width: 1350px;
   width: 100%;
-  margin: auto auto 2rem;
+  margin: 1.4rem auto 2rem;
   top: 0;
-
+  background: rgb(255 255 255 / 10%);
+  /* box-shadow: 0 5px 24px 2px rgb(31 135 119 / 37%); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 0 20px;
+}
+ul li {
+  font-size: 16px;
 }
 .n-left {
   flex: 1;
@@ -20,6 +29,7 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
+
 .n-right {
   flex: 1;
   display: flex;
@@ -31,13 +41,15 @@
 .n-list {
   /* flex: 10; */
 }
-.n-list > ul {
+
+.n-list>ul {
   display: flex;
   gap: 2rem;
   margin-right: 4rem;
+  color: #fff;
 }
 
-.n-list > ul :hover {
+.n-list>ul :hover {
   color: var(--orange);
   cursor: pointer;
 }

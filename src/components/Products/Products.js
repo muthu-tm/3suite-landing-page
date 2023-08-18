@@ -27,7 +27,7 @@ function Products() {
       };
   return (
 
-    <div className='prod-sec'>
+    <div className='prod-sec' id="product">
         {/* <img src={Oval} alt='' className='floating-oval' /> */}
                <Carousel
                swipeable={false}

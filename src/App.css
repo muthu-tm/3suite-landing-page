@@ -19,6 +19,7 @@
   font-family: 'Open Sans', sans-serif;
   background-color: rgb(26, 26, 36) !important;
   min-height: 100vh;
+  letter-spacing: 1px;
 }
 
 .button {

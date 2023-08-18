@@ -6,6 +6,9 @@ import { useContext } from "react";
 import { themeContext } from "./Context";
 import CryptoCard from "./components/Marquee/CryptoCard";
 import Products from "./components/Products/Products";
+import About from "./components/About/About";
+import Team from "./components/OurTeam/Team";
+import Contact from "./components/Contact/Contact";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -18,6 +21,9 @@ function App() {
       <Intro />
       <CryptoCard />
       <Products />
+      <About/>
+      <Team/>
+      <Contact/>
     </div>
   );
 }
