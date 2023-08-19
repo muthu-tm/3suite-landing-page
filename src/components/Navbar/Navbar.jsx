@@ -2,7 +2,7 @@ import React from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Logo from "../../img/logoSuite.png";
+import Logo from "../../img/logoSuite2.png";
 const navbar = () => {
   return (
     <div>

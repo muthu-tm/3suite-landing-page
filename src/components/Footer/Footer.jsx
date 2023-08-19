@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "../../img/logoSuite.png";
+import Logo from "../../img/logoSuite2.png";
 import { IconContext } from "react-icons";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
 import { PiTelegramLogoBold } from "react-icons/pi";
