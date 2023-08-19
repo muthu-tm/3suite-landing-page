@@ -11,8 +11,8 @@ function Team() {
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h2 className='team-head'>Our Team</h2>
-            <h3 class=" team-para ">Meet the people who make awesome stuffs</h3>
+            <h2 className='team-head'>Meet our Tech Wizards</h2>
+            <h3 class=" team-para ">Meet the people who make awesome stuffs in 3Suite</h3>
           </div>
     
           <div class="container">
@@ -21,7 +21,7 @@ function Team() {
               <div class="cont">
                 <div class="team-member">
                   <figure className='img-cont'>
-                    <img src={T1} alt="" class="img-responsive"/>
+                    <img src={T3} alt="" class="img-responsive"/>
                     <figcaption>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
                       <ul>
@@ -31,15 +31,16 @@ function Team() {
                       </ul>
                     </figcaption>
                   </figure>
-                  <h4>Lauren Cox</h4>
-                  <p className='designation'>Creative Director</p>
+                  <div className='team-name'>Muthu Thavamani</div>
+
+                  <p className='designation'>Founder</p>
                 </div>
               </div>
     
               <div class="cont">
                 <div class="team-member">
                   <figure className='img-cont'>  
-                    <img src={T3} alt="" class="img-responsive"/>
+                    <img src={T2} alt="" class="img-responsive"/>
                     <figcaption>
                       <p>Neque minima ea, a praesentium saepe nihil maxime quod esse numquam explicabo eligendi.</p>
                       <ul>
@@ -49,15 +50,16 @@ function Team() {
                       </ul>
                     </figcaption>
                   </figure>
-                  <h4>Jessie Barnett</h4>
-                  <p  className='designation'>UI/UX Designer</p>
+                  <div className='team-name'>Vaishnvai</div>
+
+                  <p  className='designation'>Frontend Developer</p>
                 </div>
               </div>
     
               <div class="cont">
                 <div class="team-member">
                   <figure className='img-cont'>
-                    <img src={T2} alt="" class="img-responsive"/>
+                    <img src={T1} alt="" class="img-responsive"/>
                     <figcaption>
                       <p>Temporibus dolor, quisquam consectetur molestias, veniam voluptatum. Beatae alias omnis totam.</p>
                       <ul>
@@ -67,7 +69,7 @@ function Team() {
                       </ul>
                     </figcaption>
                   </figure>
-                  <h4>Terry Fletcher</h4>
+                  <div className='team-name'>Terry Fletcher</div>
                   <p  className='designation'>Web Developer</p>
                 </div>
               </div>

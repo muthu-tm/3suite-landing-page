@@ -9,21 +9,21 @@ import Products from "./components/Products/Products";
 import About from "./components/About/About";
 import Team from "./components/OurTeam/Team";
 import Contact from "./components/Contact/Contact";
+import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div
-      className="App"
-      
-    >
+    <div className="App">
       <Navbar />
       <Intro />
       <CryptoCard />
       <Products />
-      <About/>
-      <Team/>
-      <Contact/>
+      <About />
+      <Team />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }

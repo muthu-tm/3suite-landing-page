@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
-    <div className="bg">
+    <div className="bg" id="home">
     <div className="intro-sec">
       <img src={Logo} alt="" className="logo-sq" />
       <div style={{position:'relative'}}>
