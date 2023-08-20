@@ -1,9 +1,10 @@
 import React from "react";
 import "./product.css";
-import Crypit from "../../img/crypit.png";
+import Crypit from "../../img/Group 102.png";
+import Codenz from "../../img/codenz.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-// import Oval from "../../img/ovalShadow.svg"
+import NFTsuite from "../../img/Group 427322400.png"
 
 function Products() {
   const responsive = {
@@ -66,9 +67,9 @@ function Products() {
         </div>
         <div className="single-prod">
           <div className="prod-data">
-            <div className="p-heading">Codenz | Git Based NFTs Here</div>
-            <div className="p-subhead">
-              The Crypto Super App for the decentralized future.
+            <div className="p-heading">3Suite | Empowering Digital Collectors </div>
+            <div className="suite-nft">
+            Where Creativity Meets the Blockchain: 3Suite- Your NFT Playground
             </div>
             <div className="p-para">
               {" "}
@@ -79,14 +80,14 @@ function Products() {
             </div>
           </div>
           <div className="prod-img">
-            <img src={Crypit} alt="" className="p-img" />
+            <img src={NFTsuite} alt="" className="p-img" />
           </div>
         </div>
         <div className="single-prod">
           <div className="prod-data">
-            <div className="p-heading">3Suite | Git Based NFTs Here</div>
-            <div className="suite-nft">
-              The Crypto Super App for the decentralized future.
+            <div className="p-heading">Codenz | Transforming Code into NFT Treasures</div>
+            <div className="p-codenz">
+            Crafting Code, Curating NFTs: Your GitHub Gallery
             </div>
             <div className="p-para">
               {" "}
@@ -97,9 +98,10 @@ function Products() {
             </div>
           </div>
           <div className="prod-img">
-            <img src={Crypit} alt="" className="p-img" />
+            <img src={Codenz} alt="" className="p-img" />
           </div>
         </div>
+   
       </Carousel>
     </div>
   );

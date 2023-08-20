@@ -19,6 +19,7 @@ width: 120px;
   line-height: 26px;
   color: #fff;
   width: 50%;
+  margin-top: 10px;
 }
 .footer-right{
   display: flex;

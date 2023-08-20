@@ -12,9 +12,9 @@ function Team() {
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h2 className="team-head">Meet our Tech Wizards</h2>
+            <h2 className="team-head">Meet the Minds</h2>
             <h3 class=" team-para ">
-              Meet the people who make awesome stuffs in 3Suite
+            At 3Suite, we're a passionate team of creators, innovators, and tech enthusiasts who have come together to revolutionize the world of NFTs and digital art. With diverse backgrounds and a shared love for technology and creativity, we're on a mission to transform the way artists, developers, and collectors interact in the digital realm.
             </h3>
           </div>
 

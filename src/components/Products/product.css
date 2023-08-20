@@ -28,8 +28,9 @@
 
 .p-heading {
     font-size: 36px;
+    line-height: 46px;
+    text-align: center;
     font-weight: 700;
-    line-height: 28px;
     color: #fff;
     padding-bottom: 25px;
 }
@@ -69,7 +70,6 @@
 }
 
 .crypit-nft {
-    -webkit-text-fill-color: transparent;
     background: linear-gradient(94.59deg, #ff7e11 1.33%, #fbe043 52.86%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -78,6 +78,16 @@
     line-height: 32px;
     text-transform: uppercase;
     padding-bottom: 20px;
+}
+.p-codenz{
+    background: linear-gradient(94.59deg, #22cf1e 1.33%, #5b9c54 52.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 20px;   
 }
 
 .floating-oval {
@@ -112,6 +122,7 @@
     font-size: 16px;
     line-height: 26px;
     width: auto;
+    text-align: justify;
 }
 .carousel .slide img{
     margin-top: 25px;
