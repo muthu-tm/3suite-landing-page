@@ -3,27 +3,28 @@ import "./Intro.css";
 import Logo from "../../img/logo.png";
 import { Link } from "react-scroll";
 
-
 const Intro = () => {
   return (
     <div className="bg" id="home">
-    <div className="intro-sec">
-      <img src={Logo} alt="" className="logo-sq" />
-      <div style={{position:'relative'}}>
-      <div className="intro-head">Welcome to this fuckin boring shit</div>
-      <div className="highlight" />
-      </div>
-      <div className="into-para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum numquam blanditii! Provident similique
-        accusantium nemo autem.
-      </div>
-      <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Get In Touch</button>
+      <div className="intro-sec">
+        <img src={Logo} alt="" className="logo-sq" />
+        <div style={{ position: "relative" }}>
+          <div className="intro-head">
+            Coding the Future, Tokenizing the Present
+          </div>
+          <div className="highlight" />
+        </div>
+        <div className="into-para">
+          We're not just creating an NFT platform – we're building a movement
+          that celebrates the convergence of art and technology. This is a place
+          where Code meets Collectible Creativity. Together, let's redefine the
+          digital art landscape and shape a future where creativity knows no
+          bounds.
+        </div>
+        <Link to="contact" spy={true} smooth={true}>
+          <button className="button n-button">Get In Touch</button>
         </Link>
-    </div>
+      </div>
     </div>
   );
 };

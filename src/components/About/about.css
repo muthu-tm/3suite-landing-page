@@ -32,7 +32,7 @@
 }
 
 .mv-img {
-    width: 250px;
+    margin:10px auto 0;
     /* height: 150px; */
 
 }
@@ -46,11 +46,11 @@
     flex-direction: row;
 }
 .mv-quote {
-    width: 70px;
-    height: 50px;
+    width: 50px;
+    height: 40px;
 }
 .mv-cont{
-    width: 65%;
+    width: 70%;
 }
 @media (min-width:320px) and (max-width: 960px) {
 

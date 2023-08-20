@@ -15,8 +15,10 @@ const Footer = () => {
         <div className="footer-left">
           <img src={Logo} alt="" className="footer-img" />
           <div className="footer-detail">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi motiae.
+            we're not just creating an NFT platform – we're building a movement
+            that celebrates the convergence of art and technology. Together,
+            let's redefine the digital art landscape and shape a future where
+            creativity knows no bounds.
           </div>
         </div>
         <div className="footer-right">
@@ -33,7 +35,10 @@ const Footer = () => {
             <Link to="team" spy={true} smooth={true}>
               <div className="s-route">Team</div>
             </Link>
+            <Link to="contact" spy={true} smooth={true}>
+
             <div className="s-route">Get in Touch</div>
+            </Link>
           </div>
           <div className="footer-sm">
             <IconContext.Provider
@@ -84,8 +89,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="b-top" />
-      <div className="footer-detail" style={{fontSize:12,margin:"10px auto 20px",textAlign:"center"}}>
-        All Rights Reserved 2023 @ 3Suite 
+      <div
+        className="footer-detail"
+        style={{ fontSize: 12, margin: "10px auto 20px", textAlign: "center" }}
+      >
+        All Rights Reserved 2023 @ 3Suite
       </div>
     </>
   );

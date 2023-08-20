@@ -4,7 +4,7 @@ import Crypit from "../../img/Group 102.png";
 import Codenz from "../../img/codenz.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import NFTsuite from "../../img/Group 427322400.png"
+import NFTsuite from "../../img/Group 427322400.png";
 
 function Products() {
   const responsive = {
@@ -67,16 +67,19 @@ function Products() {
         </div>
         <div className="single-prod">
           <div className="prod-data">
-            <div className="p-heading">3Suite | Empowering Digital Collectors </div>
+            <div className="p-heading">
+              3Suite | Empowering Digital Collectors{" "}
+            </div>
             <div className="suite-nft">
-            Where Creativity Meets the Blockchain: 3Suite- Your NFT Playground
+              Where Creativity Meets the Blockchain: 3Suite- Your NFT Playground
             </div>
             <div className="p-para">
               {" "}
-              CrypIT is an unified crypto super app built to make the web3
-              journey of everyday people safe, simple and hassle free. CrypIT
-              aims to bridge the gap between traditional fiat and crypto
-              currency.{" "}
+              Dive into a world of limitless imagination, where every digital
+              creation becomes a masterpiece. Our curated collection features a
+              diverse array of NFTs, from mesmerizing digital artwork to
+              captivating virtual experiences. Each NFT is authenticated on the
+              blockchain, ensuring its rarity and provenance.{" "}
             </div>
           </div>
           <div className="prod-img">
@@ -85,23 +88,24 @@ function Products() {
         </div>
         <div className="single-prod">
           <div className="prod-data">
-            <div className="p-heading">Codenz | Transforming Code into NFT Treasures</div>
+            <div className="p-heading">
+              Codenz | Transforming Code into NFT Treasures
+            </div>
             <div className="p-codenz">
-            Crafting Code, Curating NFTs: Your GitHub Gallery
+              Crafting Code, Curating NFTs: Your GitHub Gallery
             </div>
             <div className="p-para">
               {" "}
-              CrypIT is an unified crypto super app built to make the web3
-              journey of everyday people safe, simple and hassle free. CrypIT
-              aims to bridge the gap between traditional fiat and crypto
-              currency.{" "}
+              Explore an extraordinary collection of tokenized code creations
+              that transcend mere functionality. From elegant algorithms to
+              poetic scripts, our marketplace hosts a variety of code artifacts
+              waiting to be appreciated as digital treasures.{" "}
             </div>
           </div>
           <div className="prod-img">
             <img src={Codenz} alt="" className="p-img" />
           </div>
         </div>
-   
       </Carousel>
     </div>
   );
