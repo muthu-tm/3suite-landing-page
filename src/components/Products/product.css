@@ -38,12 +38,13 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 28px;
-    color:rgb(251, 224, 67);
+    color: rgb(251, 224, 67);
     text-transform: uppercase;
     padding-bottom: 20px;
 
 }
-.p-para{
+
+.p-para {
     font-size: 20px;
     font-weight: 400;
     line-height: 29px;
@@ -51,23 +52,13 @@
     width: 88%;
     margin: auto;
 }
-.prod-data{
+
+.prod-data {
     max-width: 60%;
 }
 
-.suite-nft{
+.suite-nft {
     background: linear-gradient(to right, #CE00E6, #E7009C);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 32px;
-      text-transform: uppercase;
-      padding-bottom: 20px;
-  }
-  .crypit-nft{
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(94.59deg,#ff7e11 1.33%,#fbe043 52.86%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 22px;
@@ -75,8 +66,58 @@
     line-height: 32px;
     text-transform: uppercase;
     padding-bottom: 20px;
-  }
-  .floating-oval{
-position: absolute;
-top: 0  ;
-  }
+}
+
+.crypit-nft {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(94.59deg, #ff7e11 1.33%, #fbe043 52.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.floating-oval {
+    position: absolute;
+    top: 0;
+}
+
+@media (min-width:320px) and (max-width: 960px) {
+    .prod-data {
+        max-width: 100%;
+    }
+.single-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.p-heading{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    padding-bottom: 16px;
+}
+.suite-nft,.crypit-nft,.p-subhead{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+.p-para{
+    font-size: 16px;
+    line-height: 26px;
+    width: auto;
+}
+.carousel .slide img{
+    margin-top: 25px;
+    height: auto;
+}
+.prod-sec{
+    margin: auto auto 25px;
+}
+}

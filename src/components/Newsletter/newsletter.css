@@ -115,3 +115,33 @@
     outline-style: none;
     font-family: 'Open Sans';
 }
+.form-sec{
+    width: 45%;
+}
+@media (min-width:320px) and (max-width: 960px) {
+
+    .news-sec{
+        width: 80%; 
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-left{
+        max-width: 100%;
+        margin: auto;
+    }
+    .letsConnect{
+        font-size: 24px;
+    line-height: 34px;
+    }
+    .grad-img{
+        position: absolute;
+    opacity: 0.2;
+    }
+.form-sec{
+    width: 100%;
+}
+.news-content {
+    margin-bottom: 25px;
+}
+}

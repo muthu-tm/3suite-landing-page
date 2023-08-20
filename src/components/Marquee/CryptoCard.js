@@ -32,7 +32,7 @@ function CryptoCard() {
     getCoinDetail();
   }, []);
   return (
-    <Marquee className="marquee" speed={70} style={{ margin: "75px 0" }}>
+    <Marquee className="marquee" speed={70} >
       {coinData?.map((item, index) => {
         let priceChange = item.price_change_percentage_24h_in_currency;
         let priceString = priceChange.toString();
@@ -57,8 +57,8 @@ function CryptoCard() {
               <img
                 src={item.image}
                 alt=""
-                width={70}
-                height={70}
+             
+                className="marquee-img"
                 style={{ borderRadius:"50%" }}
               />
             </div>

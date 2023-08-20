@@ -3,7 +3,7 @@
   align-items: center;
   max-width: 1200px;
   width: 100%;
-  margin: 2% auto 50px;
+  margin: 2% auto 10px;
   justify-content: space-between;
   
 }
@@ -47,4 +47,27 @@ width: 120px;
   margin-left: 25px;
   margin-bottom: 10px;
   cursor: pointer;
+}
+@media (min-width:320px) and (max-width: 960px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 10px 20px;
+
+  }
+  .footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-detail{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .footer-right{
+    margin-top: 18px;
+  }
 }

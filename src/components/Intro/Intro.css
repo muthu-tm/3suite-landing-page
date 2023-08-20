@@ -39,4 +39,22 @@
   margin: 15px auto 35px;
   text-align: center;
 }
-
+@media (min-width:320px) and (max-width: 960px) {
+.intro-sec{
+  margin: 75px auto 50px;
+}
+.intro-head{
+  font-size: 32px!important;
+line-height: 38px!important;
+text-align: center!important;
+}
+.intro-head{
+  /* margin-top: 15px; */
+  width: 95%;
+  margin:15px auto 8px;
+}
+.into-para{
+width: 95%!important;
+font-size: 18px!important;
+  line-height: 28px!important;
+}}

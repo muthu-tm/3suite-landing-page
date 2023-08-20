@@ -45,8 +45,9 @@ function Newsletter() {
           display: "flex",
           flexDirection: "column",
           margin: "25px 0px 15px",
-          width: "45%",
+
         }}
+        className="form-sec"
       >
         <Form>
           <Form.Item

@@ -16,7 +16,7 @@ const Footer = () => {
           <img src={Logo} alt="" className="footer-img" />
           <div className="footer-detail">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi
+            mollitia, molestiae quas vel sint commodi motiae.
           </div>
         </div>
         <div className="footer-right">
@@ -82,6 +82,10 @@ const Footer = () => {
             </IconContext.Provider>
           </div>
         </div>
+      </div>
+      <div className="b-top" />
+      <div className="footer-detail" style={{fontSize:12,margin:"10px auto 20px",textAlign:"center"}}>
+        All Rights Reserved 2023 @ 3Suite 
       </div>
     </>
   );

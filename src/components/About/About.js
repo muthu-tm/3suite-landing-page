@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="abt-sec" id="about">
       <div className="mission">
-        <div style={{ width: "65%" }}>
+        <div  className="mv-cont">
           <div className="quote">
             <img src={QuotesOpen} alt="" className="mv-quote" />
 
@@ -30,7 +30,7 @@ function About() {
       <div style={{ marginTop: 55 }} />
       <div className="vision">
         <img src={Vision} alt="" className="mv-img" />
-        <div style={{ width: "65%" }}>
+        <div className="mv-cont">
         <div className="quote">
             <img src={QuotesClose} alt="" className="mv-quote" />
           <div className="mv-head" style={{ marginLeft: 8, marginTop: 8 }}>Mission</div></div>
