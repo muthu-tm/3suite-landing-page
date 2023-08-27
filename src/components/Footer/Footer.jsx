@@ -15,10 +15,9 @@ const Footer = () => {
         <div className="footer-left">
           <img src={Logo} alt="" className="footer-img" />
           <div className="footer-detail">
-            we're not just creating an NFT platform – we're building a movement
-            that celebrates the convergence of art and technology. Together,
-            let's redefine the digital art landscape and shape a future where
-            creativity knows no bounds.
+            Join us in shaping the next era of the internet,
+            where innovation knows no bounds and every click writes a new
+            chapter in the evolution of technology.
           </div>
         </div>
         <div className="footer-right">
@@ -36,8 +35,7 @@ const Footer = () => {
               <div className="s-route">Team</div>
             </Link>
             <Link to="contact" spy={true} smooth={true}>
-
-            <div className="s-route">Get in Touch</div>
+              <div className="s-route">Get in Touch</div>
             </Link>
           </div>
           <div className="footer-sm">

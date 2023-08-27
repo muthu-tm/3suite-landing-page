@@ -5,6 +5,7 @@ import Codenz from "../../img/codenz.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import NFTsuite from "../../img/Group 427322400.png";
+import SuiteApp from "../../img/3suite-img.png";
 
 function Products() {
   const responsive = {
@@ -28,7 +29,14 @@ function Products() {
   };
   return (
     <div className="prod-sec" id="product">
-      {/* <img src={Oval} alt='' className='floating-oval' /> */}
+      <div className="team-head">Products</div>
+      <div class=" team-para " style={{ marginBottom: 30, marginTop: 5 }}>
+        Our Products stands as a testament to the decentralized, user-centric
+        future, empowered by blockchain's transparency and smart contract's
+        efficiency. Seamlessly blending decentralized Apps, Metaverse and AI/ML,
+        we offer an immersive experience that transcends the limitations of
+        traditional web platforms.
+      </div>
       <Carousel
         swipeable={false}
         draggable={false}
@@ -36,7 +44,7 @@ function Products() {
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
-        autoPlay={true}
+        autoPlay={false}
         autoPlaySpeed={1000}
         autoPlayTimeout={100}
         keyBoardControl={true}
@@ -49,20 +57,21 @@ function Products() {
       >
         <div className="single-prod">
           <div className="prod-data">
-            <div className="p-heading">CrypIT | HODL, EARN, LEARN, SPEND</div>
-            <div className="crypit-nft">
-              The Crypto Super App for the decentralized future.
+            <div className="p-heading">
+              3Suite App | Mint on Our Cutting-Edge Platform{" "}
             </div>
+            <div className="p-codenz">Your Go-To Token management Solution</div>
             <div className="p-para">
               {" "}
-              CrypIT is an unified crypto super app built to make the web3
-              journey of everyday people safe, simple and hassle free. CrypIT
-              aims to bridge the gap between traditional fiat and crypto
-              currency.{" "}
+              At our 3suite app, we have set of tools that help you to quickly
+              get into the web3 and helps you to build your Dapp. Experience the
+              future of contract deployment as we simplify and streamline the
+              process for you.
             </div>
+            <button className="tmt-cta">Take me there &rarr;</button>
           </div>
           <div className="prod-img">
-            <img src={Crypit} alt="" className="p-img" />
+            <img src={SuiteApp} alt="" className="p-img" />
           </div>
         </div>
         <div className="single-prod">
@@ -81,11 +90,34 @@ function Products() {
               captivating virtual experiences. Each NFT is authenticated on the
               blockchain, ensuring its rarity and provenance.{" "}
             </div>
+            <button className="tmt-cta">Take me there &rarr;</button>
+
           </div>
           <div className="prod-img">
             <img src={NFTsuite} alt="" className="p-img" />
           </div>
         </div>
+        <div className="single-prod">
+          <div className="prod-data">
+            <div className="p-heading">CrypIT | HODL, EARN, LEARN, SPEND</div>
+            <div className="crypit-nft">
+              The Crypto Super App for the decentralized future.
+            </div>
+            <div className="p-para">
+              {" "}
+              CrypIT is an unified crypto super app built to make the web3
+              journey of everyday people safe, simple and hassle free. CrypIT
+              aims to bridge the gap between traditional fiat and crypto
+              currency.{" "}
+            </div>
+            <button className="tmt-cta">Take me there &rarr;</button>
+
+          </div>
+          <div className="prod-img">
+            <img src={Crypit} alt="" className="p-img" />
+          </div>
+        </div>
+
         <div className="single-prod">
           <div className="prod-data">
             <div className="p-heading">
@@ -101,6 +133,8 @@ function Products() {
               poetic scripts, our marketplace hosts a variety of code artifacts
               waiting to be appreciated as digital treasures.{" "}
             </div>
+            <button className="tmt-cta">Take me there &rarr;</button>
+
           </div>
           <div className="prod-img">
             <img src={Codenz} alt="" className="p-img" />

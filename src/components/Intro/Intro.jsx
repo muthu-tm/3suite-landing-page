@@ -10,16 +10,15 @@ const Intro = () => {
         <img src={Logo} alt="" className="logo-sq" />
         <div style={{ position: "relative" }}>
           <div className="intro-head">
-            Coding the Future, Tokenizing the Present
+            Coding the Future, Reshaping the Digital Landscape
           </div>
           <div className="highlight" />
         </div>
         <div className="into-para">
-          We're not just creating an NFT platform – we're building a movement
-          that celebrates the convergence of art and technology. This is a place
-          where Code meets Collectible Creativity. Together, let's redefine the
-          digital art landscape and shape a future where creativity knows no
-          bounds.
+          Welcome to the forefront of digital innovation, where Web3 converges
+          with cutting-edge technology to redefine the possibilities of digital world. Join us in shaping the next era of the internet, where
+          innovation knows no bounds and every click writes a new chapter in the
+          evolution of technology.
         </div>
         <Link to="contact" spy={true} smooth={true}>
           <button className="button n-button">Get In Touch</button>

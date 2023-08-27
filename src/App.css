@@ -71,3 +71,8 @@
     margin: 75px auto 30px;
   }
 }
+@media (min-width: 960px){
+  .carousel .control-dots {
+    bottom: 21px!important;
+}
+}
