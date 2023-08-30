@@ -44,7 +44,7 @@ function Products() {
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
-        autoPlay={false}
+        autoPlay={true}
         autoPlaySpeed={1000}
         autoPlayTimeout={100}
         keyBoardControl={true}
@@ -90,7 +90,7 @@ function Products() {
               captivating virtual experiences. Each NFT is authenticated on the
               blockchain, ensuring its rarity and provenance.{" "}
             </div>
-            <button className="tmt-cta">Take me there &rarr;</button>
+            <button className="s-cta">Coming Soon... </button>
 
           </div>
           <div className="prod-img">
@@ -110,7 +110,7 @@ function Products() {
               aims to bridge the gap between traditional fiat and crypto
               currency.{" "}
             </div>
-            <button className="tmt-cta">Take me there &rarr;</button>
+            <button className="cry-cta">Comming Soon..</button>
 
           </div>
           <div className="prod-img">
@@ -133,7 +133,7 @@ function Products() {
               poetic scripts, our marketplace hosts a variety of code artifacts
               waiting to be appreciated as digital treasures.{" "}
             </div>
-            <button className="tmt-cta">Take me there &rarr;</button>
+            <button className="tmt-cta">Coming Soon..</button>
 
           </div>
           <div className="prod-img">

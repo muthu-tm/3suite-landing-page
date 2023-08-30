@@ -106,7 +106,28 @@
     cursor: pointer;
     margin-top: 25px;
 }
-
+.s-cta{
+    background: #ce00e61c;
+    color: #E7009C;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.cry-cta{
+    background: #fbe04317;
+    color: #fbe043;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+}
 @media (min-width:320px) and (max-width: 960px) {
     .prod-data {
         max-width: 100%;

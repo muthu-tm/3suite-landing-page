@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
-import Logo from "../../img/logoSuite2.png";
+import Logo from "../../img/vectorLogo.png";
 import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseFill } from "react-icons/ri";
@@ -71,14 +71,15 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
-                <li >
-                  <Link to="about" spy={true} smooth={true} onClick={Close}>
-                    About
-                  </Link>
-                </li>
+
                 <li>
                   <Link to="product" spy={true} smooth={true} onClick={Close}>
                     Products
+                  </Link>
+                </li>
+                <li >
+                  <Link to="about" spy={true} smooth={true} onClick={Close}>
+                    About
                   </Link>
                 </li>
                 <li>

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
-import Logo from "../../img/logo.png";
+import Logo from "../../img/short-logo.png";
 import { Link } from "react-scroll";
 
 const Intro = () => {

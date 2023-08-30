@@ -25,11 +25,12 @@ const Footer = () => {
             <Link activeClass="active" to="home" spy={true} smooth={true}>
               <div className="s-route">Home</div>
             </Link>
-            <Link to="about" spy={true} smooth={true}>
-              <div className="s-route">About</div>
-            </Link>
+
             <Link to="product" spy={true} smooth={true}>
               <div className="s-route">Product</div>
+            </Link>
+            <Link to="about" spy={true} smooth={true}>
+              <div className="s-route">About</div>
             </Link>
             <Link to="team" spy={true} smooth={true}>
               <div className="s-route">Team</div>
