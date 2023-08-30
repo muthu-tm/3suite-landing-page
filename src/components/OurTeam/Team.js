@@ -14,7 +14,12 @@ function Team() {
           <div class="col-md-12">
             <h2 className="team-head">Meet the Minds</h2>
             <h3 class=" team-para ">
-            At 3Suite, we're a passionate team of creators, innovators, and tech enthusiasts who have come together to revolutionize the world of NFTs and digital art. With diverse backgrounds and a shared love for technology and creativity, we're on a mission to transform the way artists, developers, and collectors interact in the digital realm.
+              We are a group of innovators, tech enthusiastics and enterprenurs
+              who have come togethre to revolutionize the digital world with
+              cutting-edge technologies like Blockchain, AI, IOT., With a
+              diverse backgrounds and a shared love for techmolody and
+              innovation, we're on a mission to transferm the future of digital
+              realm
             </h3>
           </div>
 
@@ -35,7 +40,10 @@ function Team() {
                         className: "global-class-name",
                       }}
                     >
-                      <div style={{marginLeft:8,marginTop:5}} className="li-bg">
+                      <div
+                        style={{ marginLeft: 8, marginTop: 5 }}
+                        className="li-bg"
+                      >
                         <BiLogoLinkedin />
                       </div>
                     </IconContext.Provider>
@@ -59,7 +67,10 @@ function Team() {
                         className: "global-class-name",
                       }}
                     >
-                      <div style={{marginLeft:8,marginTop:5}} className="li-bg">
+                      <div
+                        style={{ marginLeft: 8, marginTop: 5 }}
+                        className="li-bg"
+                      >
                         <BiLogoLinkedin />
                       </div>
                     </IconContext.Provider>
@@ -82,7 +93,10 @@ function Team() {
                         className: "global-class-name",
                       }}
                     >
-                      <div style={{marginLeft:8,marginTop:5}} className="li-bg">
+                      <div
+                        style={{ marginLeft: 8, marginTop: 5 }}
+                        className="li-bg"
+                      >
                         <BiLogoLinkedin />
                       </div>
                     </IconContext.Provider>
