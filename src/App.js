@@ -11,6 +11,7 @@ import Team from "./components/OurTeam/Team";
 import Contact from "./components/Contact/Contact";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Footer from "./components/Footer/Footer";
+import NewsletterSubscribe from "./components/Newsletter/Subscribe";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -22,7 +23,7 @@ function App() {
       <Products />
       <About />
       <Team />
-      <Newsletter />
+   <NewsletterSubscribe/>
       <Footer />
     </div>
   );

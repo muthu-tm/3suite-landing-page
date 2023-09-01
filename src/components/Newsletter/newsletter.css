@@ -118,6 +118,10 @@
 .form-sec{
     width: 45%;
 }
+.n-gif{
+    margin:0 auto;
+    width: 30px;
+}
 @media (min-width:320px) and (max-width: 960px) {
 
     .news-sec{
