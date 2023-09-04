@@ -6,6 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.5px!important;
 background-color:  rgb(11 14 12)!important;
+margin: 0!important;
 }
 
 code {

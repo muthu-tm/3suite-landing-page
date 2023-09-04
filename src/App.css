@@ -49,30 +49,51 @@
   margin: 75px auto;
 }
 
-.carousel.carousel-slider .control-arrow:hover{
-  background: none!important;
+.carousel.carousel-slider .control-arrow:hover {
+  background: none !important;
 }
-.carousel .carousel-status{
-  display: none!important;
+
+.carousel .carousel-status {
+  display: none !important;
 }
-.carousel .thumbs-wrapper{
+
+.carousel .thumbs-wrapper {
   margin: 0;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 @media screen and (max-width: 480px) {
   .App {
     /* padding: 0.5rem 1rem; */
 
   }
 }
+
 @media screen and (max-width: 960px) {
   .marquee {
     margin: 75px auto 30px;
   }
 }
-@media (min-width: 960px){
+
+@media (min-width: 960px) {
   .carousel .control-dots {
-    bottom: 21px!important;
-}
+    bottom: 21px !important;
+  }
 }
