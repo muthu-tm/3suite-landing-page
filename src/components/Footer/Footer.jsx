@@ -6,9 +6,16 @@ import { PiTelegramLogoBold } from "react-icons/pi";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { Link } from "react-scroll";
 import Logo from "../../img/vectorLogo.png";
+import { Tooltip } from "antd";
 
 
 const Footer = () => {
+  const lookupLikedIn = (address) => {
+    window.open(
+      "https://www.linkedin.com/company/3suite-tech/",
+      "_blank"
+    );
+  };
   return (
     <>
       <div className="b-top" />
@@ -48,7 +55,7 @@ const Footer = () => {
                 className: "global-class-name",
               }}
             >
-              <div className="footer-icon">
+              <div className="footer-icon" onClick={lookupLikedIn}>
                 <BiLogoLinkedin />
               </div>
             </IconContext.Provider>
@@ -59,9 +66,12 @@ const Footer = () => {
                 className: "global-class-name",
               }}
             >
+              <Tooltip title="Coming Soon.." placement="top">
+
               <div className="footer-icon">
                 <BsInstagram />
               </div>
+              </Tooltip>
             </IconContext.Provider>
             <IconContext.Provider
               value={{
@@ -70,9 +80,12 @@ const Footer = () => {
                 className: "global-class-name",
               }}
             >
+              <Tooltip title="Coming Soon.." placement="top">
+
               <div className="footer-icon">
                 <BsTwitter />
               </div>
+              </Tooltip>
             </IconContext.Provider>
             <IconContext.Provider
               value={{
@@ -81,9 +94,12 @@ const Footer = () => {
                 className: "global-class-name",
               }}
             >
+              <Tooltip title="Coming Soon.." placement="top">
+
               <div className="footer-icon">
                 <PiTelegramLogoBold />
               </div>
+              </Tooltip>
             </IconContext.Provider>
           </div>
         </div>
