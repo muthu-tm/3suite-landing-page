@@ -20,9 +20,9 @@ const Intro = () => {
           innovation knows no bounds and every click writes a new chapter in the
           evolution of technology.
         </div>
-        <Link to="contact" spy={true} smooth={true}>
+        {/* <Link to="contact" spy={true} smooth={true}>
           <button className="button n-button">Get In Touch</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

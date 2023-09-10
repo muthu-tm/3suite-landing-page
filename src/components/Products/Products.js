@@ -27,6 +27,10 @@ function Products() {
       items: 1,
     },
   };
+
+  const moveWebpage =async(link) =>{
+    window.open(link, "_blank");
+  }
   return (
     <div className="prod-sec" id="product">
       <div className="team-head">Products</div>
@@ -58,7 +62,7 @@ function Products() {
         <div className="single-prod">
           <div className="prod-data">
             <div className="p-heading">
-              3Suite App | Mint on Our Cutting-Edge Platform{" "}
+              3Suite App | A suite of tools for Web3 Products{" "}
             </div>
             <div className="p-codenz">Your Go-To Token management Solution</div>
             <div className="p-para">
@@ -68,7 +72,7 @@ function Products() {
               future of contract deployment as we simplify and streamline the
               process for you.
             </div>
-            <button className="tmt-cta">Take me there &rarr;</button>
+            <button className="button" style={{marginTop:30}} onClick={()=>moveWebpage("https://3suite.app/")}>Take me there &rarr;</button>
           </div>
           <div className="prod-img">
             <img src={SuiteApp} alt="" className="p-img" />
@@ -77,7 +81,7 @@ function Products() {
         <div className="single-prod">
           <div className="prod-data">
             <div className="p-heading">
-              3Suite | Empowering Digital Collectors{" "}
+              NFT Marketplace | Empowering Digital Collectors{" "}
             </div>
             <div className="suite-nft">
               Where Creativity Meets the Blockchain: 3Suite- Your NFT Playground

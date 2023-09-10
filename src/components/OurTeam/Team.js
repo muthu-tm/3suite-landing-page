@@ -7,6 +7,11 @@ import { IconContext } from "react-icons";
 import { BiLogoLinkedin } from "react-icons/bi";
 
 function Team() {
+  // https://www.linkedin.com/in/vaishnaviramashanmugam/
+
+  const moveLinkedIn = async (link) => {
+    window.open(link, "_blank");
+  };
   return (
     <section id="team" class="team content-section">
       <div class="container">
@@ -31,7 +36,7 @@ function Team() {
                     <img src={T3} alt="" class="img-responsive" />
                   </figure>
                   <div className="team-name">Muthu Thavamani</div>
-                  <div style={{ display: "flex", alignItems: "center" }}>
+                  <div style={{ display: "flex", alignItems: "center",marginBottom:10 }}>
                     <p className="designation">Founder</p>
                     <IconContext.Provider
                       value={{
@@ -43,10 +48,22 @@ function Team() {
                       <div
                         style={{ marginLeft: 8, marginTop: 5 }}
                         className="li-bg"
+                        onClick={() =>
+                          moveLinkedIn(
+                            "https://www.linkedin.com/in/muthu-thavamani/"
+                          )
+                        }
                       >
                         <BiLogoLinkedin />
                       </div>
                     </IconContext.Provider>
+                  </div>
+                  <div class=" team-desc ">
+                    A Lead Blockchain Engineer and Architect with 8 years of
+                    experience including Golang, Solidity, Nodejs (Javascript)
+                    and EVM chains. Having more than 3 years of experience in
+                    Web3 product development and 4+ years of experience in the
+                    startup environment.
                   </div>
                 </div>
               </div>
@@ -58,7 +75,7 @@ function Team() {
                   </figure>
                   <div className="team-name">Vaishnvai</div>
 
-                  <div style={{ display: "flex", alignItems: "center" }}>
+                  <div style={{ display: "flex", alignItems: "center" , marginBottom:10}}>
                     <p className="designation">Frontend Developer</p>
                     <IconContext.Provider
                       value={{
@@ -70,36 +87,21 @@ function Team() {
                       <div
                         style={{ marginLeft: 8, marginTop: 5 }}
                         className="li-bg"
+                        onClick={() =>
+                          moveLinkedIn(
+                            "https://www.linkedin.com/in/vaishnaviramashanmugam/"
+                          )
+                        }
                       >
                         <BiLogoLinkedin />
                       </div>
                     </IconContext.Provider>
                   </div>
-                </div>
-              </div>
-
-              <div class="cont">
-                <div class="team-member">
-                  <figure className="img-cont">
-                    <img src={T1} alt="" class="img-responsive" />
-                  </figure>
-                  <div className="team-name">Terry Fletcher</div>
-                  <div style={{ display: "flex", alignItems: "center" }}>
-                    <p className="designation">Web Developer</p>
-                    <IconContext.Provider
-                      value={{
-                        size: "1.4em",
-                        color: "#fff",
-                        className: "global-class-name",
-                      }}
-                    >
-                      <div
-                        style={{ marginLeft: 8, marginTop: 5 }}
-                        className="li-bg"
-                      >
-                        <BiLogoLinkedin />
-                      </div>
-                    </IconContext.Provider>
+                  <div class=" team-desc ">
+                    A Senior Web3 Engineer with around 3 years of experience in
+                    Web3 and DApps product development; Having strong FrontEnd
+                    development skills like ReactJs, Nextjs, Redux and Web3
+                    integration.
                   </div>
                 </div>
               </div>
