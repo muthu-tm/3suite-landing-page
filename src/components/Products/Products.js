@@ -122,7 +122,7 @@ function Products() {
           </div>
         </div>
 
-        <div className="single-prod">
+        {/* <div className="single-prod">
           <div className="prod-data">
             <div className="p-heading">
               Codenz | Transforming Code into NFT Treasures
@@ -143,7 +143,7 @@ function Products() {
           <div className="prod-img">
             <img src={Codenz} alt="" className="p-img" />
           </div>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
