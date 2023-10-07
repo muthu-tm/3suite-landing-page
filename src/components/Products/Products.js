@@ -1,13 +1,16 @@
 import React from "react";
 import "./product.css";
 import Crypit from "../../img/Group 102.png";
-import Codenz from "../../img/codenz.png";
+import ScrollAnimation from "react-animate-on-scroll";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import NFTsuite from "../../img/Group 427322400.png";
 import SuiteApp from "../../img/3suite-img.png";
 
+
 function Products() {
+
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -32,8 +35,12 @@ function Products() {
     window.open(link, "_blank");
   }
   return (
+
     <div className="prod-sec" id="product">
+          <ScrollAnimation animateIn="fadeIn" delay={0.2}>
       <div className="team-head">Products</div>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" delay={0.4}>
       <div class=" team-para " style={{ marginBottom: 30, marginTop: 5 }}>
         Our Products stands as a testament to the decentralized, user-centric
         future, empowered by blockchain's transparency and smart contract's
@@ -41,6 +48,8 @@ function Products() {
         we offer an immersive experience that transcends the limitations of
         traditional web platforms.
       </div>
+      </ScrollAnimation>
+      <ScrollAnimation animateIn="fadeIn" delay={0.9}>
       <Carousel
         swipeable={false}
         draggable={false}
@@ -145,7 +154,9 @@ function Products() {
           </div>
         </div> */}
       </Carousel>
+      </ScrollAnimation>
     </div>
+
   );
 }
 

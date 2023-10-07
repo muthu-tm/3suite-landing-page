@@ -1,10 +1,10 @@
 import React from "react";
 import "./team.css";
-import T1 from "../../img/team1.jpg";
 import T2 from "../../img/team2.jpg";
 import T3 from "../../img/team3.jpg";
 import { IconContext } from "react-icons";
 import { BiLogoLinkedin } from "react-icons/bi";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Team() {
   // https://www.linkedin.com/in/vaishnaviramashanmugam/
@@ -30,81 +30,104 @@ function Team() {
 
           <div class="container">
             <div class="team-row">
-              <div class="cont">
-                <div class="team-member">
-                  <figure className="img-cont">
-                    <img src={T3} alt="" class="img-responsive" />
-                  </figure>
-                  <div className="team-name">Muthu Thavamani</div>
-                  <div style={{ display: "flex", alignItems: "center",marginBottom:10 }}>
-                    <p className="designation">Founder</p>
-                    <IconContext.Provider
-                      value={{
-                        size: "1.4em",
-                        color: "#fff",
-                        className: "global-class-name",
+              <ScrollAnimation
+                animateIn="flipInY"
+                animateOut="flipOutY"
+                delay={0.6}
+              >
+                <div class="cont">
+                  <div class="team-member">
+                    <figure className="img-cont">
+                      <img src={T3} alt="" className="img-responsive1" />
+                    </figure>
+                    <div className="team-name">Muthu Thavamani</div>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: 10,
                       }}
                     >
-                      <div
-                        style={{ marginLeft: 8, marginTop: 5 }}
-                        className="li-bg"
-                        onClick={() =>
-                          moveLinkedIn(
-                            "https://www.linkedin.com/in/muthu-thavamani/"
-                          )
-                        }
+                      <p className="designation">Founder</p>
+                      <IconContext.Provider
+                        value={{
+                          size: "1.4em",
+                          color: "#fff",
+                          className: "global-class-name",
+                        }}
                       >
-                        <BiLogoLinkedin />
-                      </div>
-                    </IconContext.Provider>
-                  </div>
-                  <div class=" team-desc ">
-                    A Lead Blockchain Engineer and Architect with 8 years of
-                    experience including Golang, Solidity, Nodejs (Javascript)
-                    and EVM chains. Having more than 3 years of experience in
-                    Web3 product development and 4+ years of experience in the
-                    startup environment.
+                        <div
+                          style={{ marginLeft: 8, marginTop: 5 }}
+                          className="li-bg"
+                          onClick={() =>
+                            moveLinkedIn(
+                              "https://www.linkedin.com/in/muthu-thavamani/"
+                            )
+                          }
+                        >
+                          <BiLogoLinkedin />
+                        </div>
+                      </IconContext.Provider>
+                    </div>
+                    <div class=" team-desc ">
+                      A Lead Blockchain Engineer and Architect with 8 years of
+                      experience including Golang, Solidity, Nodejs (Javascript)
+                      and EVM chains. Having more than 3 years of experience in
+                      Web3 product development and 4+ years of experience in the
+                      startup environment.
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
+              <ScrollAnimation
+                animateIn="flipInY"
+                animateOut="flipOutY"
+                delay={0.6}
+              >
+                <div class="cont">
+                  <div class="team-member">
+                    <figure className="img-cont">
+                      <img src={T2} alt="" className="img-responsive2" />
+                    </figure>
+                    <div className="team-name">Vaishnvai</div>
 
-              <div class="cont">
-                <div class="team-member">
-                  <figure className="img-cont">
-                    <img src={T2} alt="" class="img-responsive" />
-                  </figure>
-                  <div className="team-name">Vaishnvai</div>
-
-                  <div style={{ display: "flex", alignItems: "center" , marginBottom:10}}>
-                    <p className="designation">Frontend Developer</p>
-                    <IconContext.Provider
-                      value={{
-                        size: "1.4em",
-                        color: "#fff",
-                        className: "global-class-name",
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        marginBottom: 10,
                       }}
                     >
-                      <div
-                        style={{ marginLeft: 8, marginTop: 5 }}
-                        className="li-bg"
-                        onClick={() =>
-                          moveLinkedIn(
-                            "https://www.linkedin.com/in/vaishnaviramashanmugam/"
-                          )
-                        }
+                      <p className="designation">Frontend Developer</p>
+                      <IconContext.Provider
+                        value={{
+                          size: "1.4em",
+                          color: "#fff",
+                          className: "global-class-name",
+                        }}
                       >
-                        <BiLogoLinkedin />
-                      </div>
-                    </IconContext.Provider>
-                  </div>
-                  <div class=" team-desc ">
-                    A Senior Web3 Engineer with around 3 years of experience in
-                    Web3 and DApps product development; Having strong FrontEnd
-                    development skills like ReactJs, Nextjs, Redux and Web3
-                    integration.
+                        <div
+                          style={{ marginLeft: 8, marginTop: 5 }}
+                          className="li-bg"
+                          onClick={() =>
+                            moveLinkedIn(
+                              "https://www.linkedin.com/in/vaishnaviramashanmugam/"
+                            )
+                          }
+                        >
+                          <BiLogoLinkedin />
+                        </div>
+                      </IconContext.Provider>
+                    </div>
+                    <div class=" team-desc ">
+                      A Senior Web3 Engineer with around 3 years of experience
+                      in Web3 and DApps product development; Having strong
+                      FrontEnd development skills like ReactJs, Nextjs, Redux
+                      and Web3 integration.
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollAnimation>
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ import { useState } from "react";
 
 function CryptoCard() {
   const [coinData, setCoinData] = useState();
+
+
   const getCoinDetail = async () => {
     const config = {
       headers: {
@@ -32,6 +34,7 @@ function CryptoCard() {
     getCoinDetail();
   }, []);
   return (
+    
     <Marquee className="marquee" speed={70} >
       {coinData?.map((item, index) => {
         let priceChange = item.price_change_percentage_24h_in_currency;
@@ -115,6 +118,7 @@ function CryptoCard() {
         );
       })}
     </Marquee>
+
   );
 }
 

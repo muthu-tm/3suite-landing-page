@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Toggle from "../Toggle/Toggle";
+import React, { useState,useEffect } from "react";
+import ScrollAnimation from 'react-animate-on-scroll';
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import Logo from "../../img/vectorLogo.png";
@@ -7,11 +7,45 @@ import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseFill } from "react-icons/ri";
 
+function useScrollDirection() {
+  const [scrollDirection, setScrollDirection] = useState(null);
+
+  useEffect(() => {
+    let lastScrollY = window.pageYOffset;
+
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      const direction = scrollY > lastScrollY ? "down" : "up";
+      if (
+        direction !== scrollDirection &&
+        (scrollY - lastScrollY > 5 || scrollY - lastScrollY < -5)
+      ) {
+        setScrollDirection(direction);
+      }
+      lastScrollY = scrollY > 0 ? scrollY : 0;
+    };
+    window.addEventListener("scroll", updateScrollDirection);
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection);
+    };
+  }, [scrollDirection]);
+
+  return scrollDirection;
+}
+
+
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
+
+
+ 
+  const scrollDirection = useScrollDirection();
   return (
+    <section
+    className={`headbar ${scrollDirection === "down" ? "hide" : "show"}`}
+  >
     <div className="nav-sticky-cont">
       <div className="n-wrapper" id="Navbar">
         <div className="n-left">
@@ -24,8 +58,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="n-right">
-          <div className="n-list" onClick={(e) => e.stopPropagation()}>
+        <div className="n-list" onClick={(e) => e.stopPropagation()}>
             <ul
               style={{ listStyleType: "none" }}
               className={click ? "nav-menu active" : "nav-menu"}
@@ -53,6 +86,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+        <div className="n-right">
+         
           <Link to="contact" spy={true} smooth={true}>
             <button
               className="button n-button"
@@ -127,6 +162,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

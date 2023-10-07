@@ -2,11 +2,10 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
-
+import ScrollAnimation from "react-animate-on-scroll";
 
 const Contact = () => {
   const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false)
   
@@ -33,6 +32,7 @@ const Contact = () => {
   };
 
   return (
+    <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut' >
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
       <div className="w-left">
@@ -61,6 +61,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    </ScrollAnimation>
   );
 };
 
