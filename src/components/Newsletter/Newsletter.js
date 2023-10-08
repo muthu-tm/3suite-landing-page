@@ -5,6 +5,7 @@ import G2 from "../../img/gradient2.png";
 import { Form } from "antd";
 import loadingGif from "../../img/loading-green-loading.gif"
 import { sanitize } from "../../utils/sanitize";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function Newsletter({status, message, onValidated }) {
  
@@ -47,6 +48,7 @@ function Newsletter({status, message, onValidated }) {
   };
   return (
     <>
+        <ScrollAnimation animateIn='fadeIn' animateOut='fadeOut'delay={0.9} >
       <div style={{ paddingTop: 20 }} id="contact" />
       <div className="news-sec">
         <div className="sec-left">
@@ -161,6 +163,7 @@ function Newsletter({status, message, onValidated }) {
           </Form>
         </div>
       </div>
+      </ScrollAnimation>
     </>
   );
 }
