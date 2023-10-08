@@ -34,6 +34,7 @@ function Team() {
                 animateIn="flipInY"
                 animateOut="flipOutY"
                 delay={0.6}
+                style={{with:"100%"}}
               >
                 <div class="cont">
                   <div class="team-member">
@@ -70,11 +71,9 @@ function Team() {
                       </IconContext.Provider>
                     </div>
                     <div class=" team-desc ">
-                      A Lead Blockchain Engineer and Architect with 8 years of
-                      experience including Golang, Solidity, Nodejs (Javascript)
-                      and EVM chains. Having more than 3 years of experience in
-                      Web3 product development and 4+ years of experience in the
-                      startup environment.
+                       Lead Polyglot Engineer and Tech Architect with 8 years of
+                      experience. Worked with multiple web2 & web3 startups from
+                      their 0 to 1 journey.
                     </div>
                   </div>
                 </div>
@@ -98,7 +97,7 @@ function Team() {
                         marginBottom: 10,
                       }}
                     >
-                      <p className="designation">Frontend Developer</p>
+                      <p className="designation">Web3 Engineer</p>
                       <IconContext.Provider
                         value={{
                           size: "1.4em",
@@ -120,10 +119,9 @@ function Team() {
                       </IconContext.Provider>
                     </div>
                     <div class=" team-desc ">
-                      A Senior Web3 Engineer with around 3 years of experience
+                      A Senior Web3 Engineer with 3 years of experience
                       in Web3 and DApps product development; Having strong
-                      FrontEnd development skills like ReactJs, Nextjs, Redux
-                      and Web3 integration.
+                      Full-stack development skills and Web3 integration.
                     </div>
                   </div>
                 </div>

@@ -1,5 +1,4 @@
 import React, { useState,useEffect } from "react";
-import ScrollAnimation from 'react-animate-on-scroll';
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import Logo from "../../img/vectorLogo.png";
