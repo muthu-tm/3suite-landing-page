@@ -1,6 +1,6 @@
 
 .headbar {
-  height: 56px;
+  height: 50px;
   width: 100%;
   position: absolute ;
   top: 0px;
@@ -15,11 +15,11 @@
 .show {
   top: 0px;
   position: fixed;
-  left: -19px;
+  /* left: -19px; */
 
 }
 .n-wrapper {
-  height: 8vh;
+  height: 6vh;
   display: flex;
   justify-content: space-between;
   width: 98%;
@@ -46,7 +46,16 @@ ul li {
   display: flex;
   gap: 2rem;
 }
+.button-green {
+  background: #3fa45a;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 24px 10px 24px;
+  /* box-shadow: rgb(62 115 98 / 65%) 2px 4px 15px; */
 
+}
 .n-name {
   font-size: 1.3rem;
   font-weight: bold;
@@ -77,20 +86,21 @@ ul li {
 }
 
 .n-list>ul :hover {
-  color: var(--orange);
+  color: #3fa45a;
+  font-weight: 500;
   cursor: pointer;
 }
 
-.n-button {
+/* .n-button {
   flex: 2;
-}
+} */
 
 @media (min-width:320px) and (max-width: 960px) {
   .n-wrapper{
     width: 88%;
   }
   .nav-sticky-cont{
-padding: 0 10px;
+/* padding: 0 10px; */
   }
   .n-list {
     display: none;
@@ -98,6 +108,7 @@ padding: 0 10px;
 
 .logo-img{
   width: 80px;
+  margin-left: 0px;
 }
 .scroll-nav{
   padding: 30px 30px 15px; 
@@ -129,4 +140,12 @@ padding: 0 10px;
   .nav-icon{
     display: none;
   }
+
+}
+@media screen and (max-width:960px) {
+
+  .button-green {
+    font-size: 12px!important;
+    padding: 10px!important;
+      }
 }

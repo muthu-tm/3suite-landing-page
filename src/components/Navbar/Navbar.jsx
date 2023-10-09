@@ -89,8 +89,8 @@ const Navbar = () => {
          
           <Link to="contact" spy={true} smooth={true}>
             <button
-              className="button n-button"
-              style={{ padding: 10, fontSize: 12 }}
+              className="button-green n-button"
+              style={{marginRight:20 }}
             >
               Get In Touch
             </button>

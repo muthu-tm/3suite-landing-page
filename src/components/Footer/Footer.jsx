@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { IconContext } from "react-icons";
 import { BsInstagram, BsTwitter } from "react-icons/bs";
-import { PiTelegramLogoBold } from "react-icons/pi";
+import { PiTelegramLogFaXTwitteroBold } from "react-icons/pi";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { Link } from "react-scroll";
 import Logo from "../../img/vectorLogo.png";
